@@ -1,0 +1,28 @@
+.card{
+box-shadow: 0 2px 7px rgb(5, 5, 5);
+padding: 12px;
+border-radius: 16px;
+margin:12px;
+width:400px;
+
+transition: transform 0.3s ease-in-out; 
+}
+
+.card img{
+    width:100%;
+    border-radius: 16px;
+}
+
+.card p {
+    /*Styles for the description */
+     font-size: 16px;
+    color:rgb(92, 95, 96);
+    font-weight:bolder;
+  } 
+
+
+
+
+  .card:hover {
+    transform: translateY(-40px); /* Apply the desired transform on hover */
+  }

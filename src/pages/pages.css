@@ -1,0 +1,137 @@
+
+  .desc{
+    font-size: 35px;
+    font-weight:bolder;
+    color:black;
+   
+  }
+
+  .container {
+    margin-top: 990px ;
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+
+    background-color: rgb(159, 189, 227);
+  
+
+  }
+  .text-center{
+    text-align: center;
+  
+  }
+  .centered-title { 
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+
+ .mt-5{
+  font-weight: bolder;
+  font-size: 56px;
+  color: aliceblue;
+ }
+
+ .des{
+  font-size:18px;
+  color:black;
+  margin: 8px;
+ }
+
+ 
+ .bt {
+  padding: 16px;
+  border-radius: 16px;
+  color: tomato;
+  cursor: pointer;
+  text-decoration: none;
+}
+.error{
+ 
+  max-height: 350px;
+ 
+ 
+}
+.error1{
+  max-height: 450px;
+  /* //box-shadow: 10px 10px 10px orange; */
+  
+}
+
+
+
+/* Add meeting */
+
+.input{
+  text-align: center;
+  width:50%;
+  padding: 16px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+
+.btn {
+  padding: 16px;
+  display: block; 
+  text-align: center;
+  margin-bottom: 80px;
+  border-radius: 16px;
+  color: tomato;
+  cursor: pointer;
+}
+
+
+
+/* for loading */
+.d-none{
+  display: none;
+}
+
+.loading{
+  font-size: 25px;
+  color: orange;
+  text-align: center;
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items:center
+}
+
+.meeting-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 1200px; /* Adjust the max-width as per your preference */
+  margin: 0 auto;
+
+ 
+}
+
+
+
+.p2{
+  position: absolute;
+  top: 120%;
+  left: 50%;
+  transform: translateX(-50%);
+  color:whitesmoke;
+  font-size: 25px;
+  padding:20px;
+  border:2px solid rgb(225, 165, 165);
+
+  color:rgb(252, 246, 252)
+}
+
+
+
+
+
+
+
+
+
